@@ -41,7 +41,7 @@ cc.Class({
         }
 
         for(let pipe of children) {
-            if (pipe.x < 0) { //父亲节点的位置是x=0 大的layer左边对齐
+            if (pipe.x < -100) { //钢管的锚点 出去屏幕再销毁
                 pipe.destroy()
             }
         }

@@ -19,7 +19,7 @@ cc.Class({
         //node.getComponent(组件名/组件类型)
 
         this.isMove = false
-        //触摸事件注册 第一个参数是事件类型，第二个参数是回调函数
+        //触摸事件注册 第一个参数是事件类型，第二个参数是回调函数,不传则为window
         //回调函数加了括号代表执行函数，获取到的是返回值，现在赋值给引擎，引擎去执行函数
         this.node.on(cc.Node.EventType.TOUCH_START, this.onTouchBegin, this)
         this.node.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this)

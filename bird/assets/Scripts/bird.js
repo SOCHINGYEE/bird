@@ -15,12 +15,22 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+    onLoad () {
+        //cc.move(时间间隔，x, y)
+        let moveTo = cc.moveTo(2,500,1000);
+        let func = cc.callFunc(this.print,this)
+        let seq = cc.sequence(moveTo,func)
+      
+        this.node.runAction(seq)
+        
+    },
 
     start () {
 
     },
-
+    print() {
+        console.log('这是回调函数')
+    },
     up() {
         this.speed = 500 //给一个正数，相当于给一个向上的速度，速度减为0的时候才会做向下自由落体运动
     },

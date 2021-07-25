@@ -20,7 +20,7 @@
         "__id__": 21
       },
       {
-        "__id__": 24
+        "__id__": 25
       }
     ],
     "_active": false,
@@ -933,6 +933,9 @@
       },
       {
         "__id__": 23
+      },
+      {
+        "__id__": 24
       }
     ],
     "_prefab": null,
@@ -1030,6 +1033,23 @@
     "_id": "83SHn4R/tProuJwJy8pv1l"
   },
   {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "_defaultClip": null,
+    "_clips": [
+      {
+        "__uuid__": "7f593a7c-3170-4a8c-9e12-46726b28cb53"
+      }
+    ],
+    "playOnLoad": false,
+    "_id": "e8CC4vhSlDkIZef1kdZvnb"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "touchLayer",
     "_objFlags": 0,
@@ -1040,7 +1060,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 25
+        "__id__": 26
       }
     ],
     "_prefab": null,
@@ -1096,7 +1116,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 24
+      "__id__": 25
     },
     "_enabled": true,
     "bird": {

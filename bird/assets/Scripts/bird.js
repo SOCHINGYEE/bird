@@ -38,8 +38,8 @@ cc.Class({
         //自由落体运动
         //速度随时间变化的规律 v=gt
         //this指向的是脚本非节点
-        // this.speed += this.accel*dt
+        this.speed += this.accel*dt
         // //位移随时间变化的规律 h=1/2gt^2=1/2*accel*dt*dt =this.speed*dt
-        // this.node.y += this.speed *dt
+        this.node.y += this.speed *dt
     },
 });

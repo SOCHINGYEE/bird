@@ -89,13 +89,17 @@ cc.Class({
             }
             this.labelScore.string =  "score:" + window.score
        }else if (other.node.group == 'pipe') {
-           if(window.maxScore < window.score) {
+           if(window.maxScore == window.score) {
                //突破历史最高分
-               cc.director.loadScene('best_score')
+               cc.director.loadScene('best')
            }
             else cc.director.loadScene('over')
        }else if (other.node.group == 'groundLeft' || other.node.group == 'groundRight'){
-           cc.director.loadScene('over')
+        if(window.maxScore == window.score) {
+            //突破历史最高分
+            cc.director.loadScene('best')
+        }
+         else cc.director.loadScene('over')
        }
     }
 });

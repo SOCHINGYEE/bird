@@ -18,8 +18,11 @@ cc.Class({
 
     start () {
         let scoreNode = this.node.getChildByName('score') //创建的节点被命名成score
+    
         let labelScore = scoreNode.getComponent(cc.Label)
+ 
         labelScore.string = "SCORE: " +  window.score
+    
     },
 
     // update (dt) {},

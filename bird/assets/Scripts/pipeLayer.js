@@ -41,16 +41,6 @@ cc.Class({
 
     },
      update (dt) {
-        // let children = this.node.children
-        // for(let pipe of children) {
-        //     pipe.x += this.speed*dt
-        //     //起始坐标就在屏幕外，加了一个负数，往左移动
-        // }
-
-        // for(let pipe of children) {
-        //     if (pipe.x < -100) { //钢管的锚点 出去屏幕再销毁
-        //         pipe.destroy()
-        //     }
-        // }
+       
      },
 });

@@ -31,7 +31,7 @@ cc.Class({
             window.maxScore = 0
             cc.sys.localStorage.setItem('maxScore',0)
         }else {
-            this.labelMaxScore.string = 'MAX SCORE: ' + window.maxScore
+            this.labelMaxScore.string =  window.maxScore
         }
     },
 

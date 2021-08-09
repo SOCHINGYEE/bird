@@ -1,7 +1,7 @@
 {
   "title": "flappy-bird",
   "packageName": "org.cocos2d.demo",
-  "startScene": "d3e4a3f6-aa81-4f53-b672-5b6c135edc5d",
+  "startScene": "501b9710-9ccf-452f-af00-44b55c40ccc8",
   "excludeScenes": [],
   "orientation": {
     "landscapeRight": true,

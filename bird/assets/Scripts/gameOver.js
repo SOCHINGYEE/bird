@@ -21,7 +21,7 @@ cc.Class({
     
         let labelScore = scoreNode.getComponent(cc.Label)
  
-        labelScore.string = "SCORE: " +  window.score
+        labelScore.string =  window.score
     
     },
 

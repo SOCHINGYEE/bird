@@ -84,10 +84,10 @@ cc.Class({
             window.score ++ 
             if(window.maxScore < window.score) {
                 window.maxScore = window.score //更新最高分
-                this.labelMaxScore.string = "max score: " + window.maxScore 
+                this.labelMaxScore.string =  window.maxScore 
                 cc.sys.localStorage.setItem('maxScore',window.score)
             }
-            this.labelScore.string =  "score:" + window.score
+            this.labelScore.string =   window.score
        }else if (other.node.group == 'pipe') {
            if(window.maxScore == window.score) {
                //突破历史最高分
